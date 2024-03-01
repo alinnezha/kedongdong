@@ -6,7 +6,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "kedongdong"
-version = "0.1"
+version = "0.2"
 authors = [
   { name="alin", email="vydhaalin@gmail.com" },
 ]
@@ -14,8 +14,8 @@ description = "kedongdong is the best fruit"
 readme = "README.md"
 requires-python = ">=3.8"
 dependencies = [
-  'matchaxyz==0.1',
-  'atomicalsr==0.2',
+  'matchaxyz==0.2',
+  'atomicalsr==0.3',
 ]
 classifiers = [
     "Programming Language :: Python :: 3",
