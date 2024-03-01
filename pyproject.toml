@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=45", "setuptools_scm[toml]>=6.2" ]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools_scm]
+
+[project]
+name = "kedongdong"
+version = "0.1"
+authors = [
+  { name="alin", email="vydhaalin@gmail.com" },
+]
+description = "kedongdong is the best fruit"
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+  'matchaxyz==0.1',
+  'atomicalsr==0.2',
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+[project.urls]
+Homepage = "https://github.com/alinnezha/kedongdong"
+repository = "https://github.com/alinnezha/kedongdong"
